@@ -1,0 +1,83 @@
+body , *{
+
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+body::-webkit-scrollbar {
+    width: 17px;               
+  }
+  body::-webkit-scrollbar-track {
+    background: white;        
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #1E9FF2;   
+    /* border-radius: 20px;        */
+  }
+
+nav
+{
+    background-color:#1E9FF2 ;
+}
+
+ul .dropdown, nav li
+{
+    cursor: pointer;
+}
+
+ul.right
+{
+    margin-right: 150px;
+}
+ul .left
+{
+    margin-left: 10px;
+}
+
+li.inf
+{
+    margin-left: 30px;
+}
+
+nav .dropdown-menu a
+{
+    text-align: center;
+}
+
+
+
+.card-header h2
+{
+    display: inline;
+    width: 200px;
+    float: right;
+    
+}
+
+
+.alert-td
+{
+   
+    clear:both
+}
+
+
+td,th
+{
+    text-align: center;
+}
+
+
+footer
+{
+    height:40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div,p,span
+{
+    line-height:40px;
+}
